@@ -9,8 +9,8 @@ import CategoryBreakdown from "../components/CategoryBreakdown";
 import TransactionTable from "../components/TransactionTable";
 
 export default function Dashboard() {
-  const { transactions, loading, error, reload } = useTransactions();
-  const { syncing, error: syncError, sync } = useSync(reload);
+  const { transactions, loading, error, reload, lastSynced } = useTransactions();
+  const { syncing, error: syncError, sync, syncResult } = useSync(reload);
   const [selectedMonth, setSelectedMonth] = useState<string | null>(null);
 
   const filtered = useMemo(() => {
@@ -69,7 +69,7 @@ export default function Dashboard() {
 
   return (
     <div>
-      <Header transactions={transactions} syncing={syncing} onSync={sync} dateRange={dateRange} />
+      <Header transactions={transactions} syncing={syncing} onSync={sync} dateRange={dateRange} syncResult={syncResult} lastSynced={lastSynced} />
       {syncError && <p className="mb-4 text-sm text-red-400">{syncError}</p>}
       <MonthSelector
         transactions={transactions}
