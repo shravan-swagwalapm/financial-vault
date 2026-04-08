@@ -1,0 +1,102 @@
+[
+  {
+    "id": "a1b2c3",
+    "merchant_name": "Swiggy",
+    "amount": 450,
+    "currency": "INR",
+    "amount_inr": 450,
+    "date": "2026-03-15",
+    "category": "Food",
+    "original_subject": "Payment of Rs 450 to Swiggy"
+  },
+  {
+    "id": "d4e5f6",
+    "merchant_name": "Netflix",
+    "amount": 15.99,
+    "currency": "USD",
+    "amount_inr": 1351.16,
+    "date": "2026-03-01",
+    "category": "Subscriptions",
+    "original_subject": "Your Netflix payment receipt"
+  },
+  {
+    "id": "g7h8i9",
+    "merchant_name": "Amazon India",
+    "amount": 2499,
+    "currency": "INR",
+    "amount_inr": 2499,
+    "date": "2026-03-10",
+    "category": "Shopping",
+    "original_subject": "Your order has been placed - Rs 2,499"
+  },
+  {
+    "id": "j1k2l3",
+    "merchant_name": "Uber",
+    "amount": 320,
+    "currency": "INR",
+    "amount_inr": 320,
+    "date": "2026-02-28",
+    "category": "Travel",
+    "original_subject": "Your trip with Uber - INR 320"
+  },
+  {
+    "id": "m4n5o6",
+    "merchant_name": "AWS",
+    "amount": 47.23,
+    "currency": "USD",
+    "amount_inr": 3990.94,
+    "date": "2026-02-15",
+    "category": "Bills",
+    "original_subject": "Amazon Web Services Invoice"
+  },
+  {
+    "id": "p7q8r9",
+    "merchant_name": "BookMyShow",
+    "amount": 750,
+    "currency": "INR",
+    "amount_inr": 750,
+    "date": "2026-02-20",
+    "category": "Entertainment",
+    "original_subject": "Booking Confirmed - Rs 750"
+  },
+  {
+    "id": "s1t2u3",
+    "merchant_name": "Practo",
+    "amount": 500,
+    "currency": "INR",
+    "amount_inr": 500,
+    "date": "2026-03-22",
+    "category": "Health",
+    "original_subject": "Consultation fee - Dr. Sharma"
+  },
+  {
+    "id": "v4w5x6",
+    "merchant_name": "Stripe",
+    "amount": 29,
+    "currency": "USD",
+    "amount_inr": 2450.5,
+    "date": "2026-01-05",
+    "category": "Subscriptions",
+    "original_subject": "Receipt from Vercel Inc"
+  },
+  {
+    "id": "y7z8a1",
+    "merchant_name": "Zomato",
+    "amount": 680,
+    "currency": "INR",
+    "amount_inr": 680,
+    "date": "2026-01-18",
+    "category": "Food",
+    "original_subject": "Payment successful - Zomato"
+  },
+  {
+    "id": "b2c3d4",
+    "merchant_name": "IRCTC",
+    "amount": 1850,
+    "currency": "INR",
+    "amount_inr": 1850,
+    "date": "2026-01-25",
+    "category": "Travel",
+    "original_subject": "E-Ticket Booking Confirmation"
+  }
+]
