@@ -20,136 +20,6 @@
     "original_subject": "INR 3000 spent on credit card no. XX7417"
   },
   {
-    "id": "axis_050426_547",
-    "merchant_name": "Zepto",
-    "amount": 547,
-    "currency": "INR",
-    "amount_inr": 547,
-    "date": "2026-04-05",
-    "category": "Food",
-    "original_subject": "INR 547 spent on credit card no. XX7417"
-  },
-  {
-    "id": "axis_050426_221",
-    "merchant_name": "Zepto",
-    "amount": 221,
-    "currency": "INR",
-    "amount_inr": 221,
-    "date": "2026-04-05",
-    "category": "Food",
-    "original_subject": "INR 221 spent on credit card no. XX7417"
-  },
-  {
-    "id": "axis_040426_106",
-    "merchant_name": "Zepto",
-    "amount": 106,
-    "currency": "INR",
-    "amount_inr": 106,
-    "date": "2026-04-04",
-    "category": "Food",
-    "original_subject": "INR 106 spent on credit card no. XX7417"
-  },
-  {
-    "id": "axis_030426_250",
-    "merchant_name": "Aum Petroleum",
-    "amount": 250,
-    "currency": "INR",
-    "amount_inr": 250,
-    "date": "2026-04-03",
-    "category": "Travel",
-    "original_subject": "INR 250 spent on credit card no. XX7417"
-  },
-  {
-    "id": "axis_030426_60",
-    "merchant_name": "Sudheer Kumar",
-    "amount": 60,
-    "currency": "INR",
-    "amount_inr": 60,
-    "date": "2026-04-03",
-    "category": "Other",
-    "original_subject": "INR 60 spent on credit card no. XX7417"
-  },
-  {
-    "id": "axis_030426_1900",
-    "merchant_name": "Aisha K",
-    "amount": 1900,
-    "currency": "INR",
-    "amount_inr": 1900,
-    "date": "2026-04-03",
-    "category": "Other",
-    "original_subject": "INR 1900 spent on credit card no. XX7417"
-  },
-  {
-    "id": "axis_030426_237",
-    "merchant_name": "Zepto",
-    "amount": 237,
-    "currency": "INR",
-    "amount_inr": 237,
-    "date": "2026-04-03",
-    "category": "Food",
-    "original_subject": "INR 237 spent on credit card no. XX7417"
-  },
-  {
-    "id": "axis_020426_437",
-    "merchant_name": "Munchmart",
-    "amount": 437,
-    "currency": "INR",
-    "amount_inr": 437,
-    "date": "2026-04-02",
-    "category": "Food",
-    "original_subject": "INR 437 spent on credit card no. XX7417"
-  },
-  {
-    "id": "axis_020426_240",
-    "merchant_name": "Zepto",
-    "amount": 240,
-    "currency": "INR",
-    "amount_inr": 240,
-    "date": "2026-04-02",
-    "category": "Food",
-    "original_subject": "INR 240 spent on credit card no. XX7417"
-  },
-  {
-    "id": "axis_020426_323",
-    "merchant_name": "Munchmart",
-    "amount": 323,
-    "currency": "INR",
-    "amount_inr": 323,
-    "date": "2026-04-02",
-    "category": "Food",
-    "original_subject": "INR 323 spent on credit card no. XX7417"
-  },
-  {
-    "id": "axis_020426_152",
-    "merchant_name": "Zepto",
-    "amount": 152,
-    "currency": "INR",
-    "amount_inr": 152,
-    "date": "2026-04-02",
-    "category": "Food",
-    "original_subject": "INR 152 spent on credit card no. XX7417"
-  },
-  {
-    "id": "axis_020426_37",
-    "merchant_name": "Soubhagyalakshmi",
-    "amount": 37,
-    "currency": "INR",
-    "amount_inr": 37,
-    "date": "2026-04-02",
-    "category": "Shopping",
-    "original_subject": "INR 37 spent on credit card no. XX7417"
-  },
-  {
-    "id": "axis_020426_104",
-    "merchant_name": "Zepto",
-    "amount": 103.95,
-    "currency": "INR",
-    "amount_inr": 103.95,
-    "date": "2026-04-02",
-    "category": "Food",
-    "original_subject": "INR 103.95 spent on credit card no. XX7417"
-  },
-  {
     "id": "hdfc_060426_14502",
     "merchant_name": "Google Workspace",
     "amount": 14502.2,
@@ -168,6 +38,36 @@
     "date": "2026-04-06",
     "category": "Travel",
     "original_subject": "Rs.861.00 debited via Credit Card **6238"
+  },
+  {
+    "id": "apple_060426_639",
+    "merchant_name": "Apple - Meta Verified",
+    "amount": 639,
+    "currency": "INR",
+    "amount_inr": 639,
+    "date": "2026-04-06",
+    "category": "Subscriptions",
+    "original_subject": "Your invoice from Apple."
+  },
+  {
+    "id": "axis_050426_547",
+    "merchant_name": "Zepto",
+    "amount": 547,
+    "currency": "INR",
+    "amount_inr": 547,
+    "date": "2026-04-05",
+    "category": "Food",
+    "original_subject": "INR 547 spent on credit card no. XX7417"
+  },
+  {
+    "id": "axis_050426_221",
+    "merchant_name": "Zepto",
+    "amount": 221,
+    "currency": "INR",
+    "amount_inr": 221,
+    "date": "2026-04-05",
+    "category": "Food",
+    "original_subject": "INR 221 spent on credit card no. XX7417"
   },
   {
     "id": "hdfc_050426_996",
@@ -250,44 +150,54 @@
     "original_subject": "Rs.730.71 debited via Credit Card **6238"
   },
   {
-    "id": "hdfc_020426_59",
-    "merchant_name": "Mailmodo",
-    "amount": 58.88,
+    "id": "axis_040426_106",
+    "merchant_name": "Zepto",
+    "amount": 106,
     "currency": "INR",
-    "amount_inr": 58.88,
-    "date": "2026-04-02",
-    "category": "Subscriptions",
-    "original_subject": "Alert: Update on your HDFC Bank Credit Card"
+    "amount_inr": 106,
+    "date": "2026-04-04",
+    "category": "Food",
+    "original_subject": "INR 106 spent on credit card no. XX7417"
   },
   {
-    "id": "apple_060426_639",
-    "merchant_name": "Apple - Meta Verified",
-    "amount": 639,
+    "id": "axis_030426_250",
+    "merchant_name": "Aum Petroleum",
+    "amount": 250,
     "currency": "INR",
-    "amount_inr": 639,
-    "date": "2026-04-06",
-    "category": "Subscriptions",
-    "original_subject": "Your invoice from Apple."
+    "amount_inr": 250,
+    "date": "2026-04-03",
+    "category": "Travel",
+    "original_subject": "INR 250 spent on credit card no. XX7417"
   },
   {
-    "id": "apple_020426_99",
-    "merchant_name": "Apple - Truecaller Premium",
-    "amount": 99,
+    "id": "axis_030426_60",
+    "merchant_name": "Sudheer Kumar",
+    "amount": 60,
     "currency": "INR",
-    "amount_inr": 99,
-    "date": "2026-04-02",
-    "category": "Subscriptions",
-    "original_subject": "Your invoice from Apple."
+    "amount_inr": 60,
+    "date": "2026-04-03",
+    "category": "Other",
+    "original_subject": "INR 60 spent on credit card no. XX7417"
   },
   {
-    "id": "apple_310326_470",
-    "merchant_name": "Apple - X Premium",
-    "amount": 470,
+    "id": "axis_030426_1900",
+    "merchant_name": "Aisha K",
+    "amount": 1900,
     "currency": "INR",
-    "amount_inr": 470,
-    "date": "2026-03-31",
-    "category": "Subscriptions",
-    "original_subject": "Your invoice from Apple."
+    "amount_inr": 1900,
+    "date": "2026-04-03",
+    "category": "Other",
+    "original_subject": "INR 1900 spent on credit card no. XX7417"
+  },
+  {
+    "id": "axis_030426_237",
+    "merchant_name": "Zepto",
+    "amount": 237,
+    "currency": "INR",
+    "amount_inr": 237,
+    "date": "2026-04-03",
+    "category": "Food",
+    "original_subject": "INR 237 spent on credit card no. XX7417"
   },
   {
     "id": "ketto_030426_5000",
@@ -298,6 +208,86 @@
     "date": "2026-04-03",
     "category": "Other",
     "original_subject": "Your Ketto transaction receipt"
+  },
+  {
+    "id": "axis_020426_437",
+    "merchant_name": "Munchmart",
+    "amount": 437,
+    "currency": "INR",
+    "amount_inr": 437,
+    "date": "2026-04-02",
+    "category": "Food",
+    "original_subject": "INR 437 spent on credit card no. XX7417"
+  },
+  {
+    "id": "axis_020426_240",
+    "merchant_name": "Zepto",
+    "amount": 240,
+    "currency": "INR",
+    "amount_inr": 240,
+    "date": "2026-04-02",
+    "category": "Food",
+    "original_subject": "INR 240 spent on credit card no. XX7417"
+  },
+  {
+    "id": "axis_020426_323",
+    "merchant_name": "Munchmart",
+    "amount": 323,
+    "currency": "INR",
+    "amount_inr": 323,
+    "date": "2026-04-02",
+    "category": "Food",
+    "original_subject": "INR 323 spent on credit card no. XX7417"
+  },
+  {
+    "id": "axis_020426_152",
+    "merchant_name": "Zepto",
+    "amount": 152,
+    "currency": "INR",
+    "amount_inr": 152,
+    "date": "2026-04-02",
+    "category": "Food",
+    "original_subject": "INR 152 spent on credit card no. XX7417"
+  },
+  {
+    "id": "axis_020426_37",
+    "merchant_name": "Soubhagyalakshmi",
+    "amount": 37,
+    "currency": "INR",
+    "amount_inr": 37,
+    "date": "2026-04-02",
+    "category": "Shopping",
+    "original_subject": "INR 37 spent on credit card no. XX7417"
+  },
+  {
+    "id": "axis_020426_104",
+    "merchant_name": "Zepto",
+    "amount": 103.95,
+    "currency": "INR",
+    "amount_inr": 103.95,
+    "date": "2026-04-02",
+    "category": "Food",
+    "original_subject": "INR 103.95 spent on credit card no. XX7417"
+  },
+  {
+    "id": "hdfc_020426_59",
+    "merchant_name": "Mailmodo",
+    "amount": 58.88,
+    "currency": "INR",
+    "amount_inr": 58.88,
+    "date": "2026-04-02",
+    "category": "Subscriptions",
+    "original_subject": "Alert: Update on your HDFC Bank Credit Card"
+  },
+  {
+    "id": "apple_020426_99",
+    "merchant_name": "Apple - Truecaller Premium",
+    "amount": 99,
+    "currency": "INR",
+    "amount_inr": 99,
+    "date": "2026-04-02",
+    "category": "Subscriptions",
+    "original_subject": "Your invoice from Apple."
   },
   {
     "id": "rzp_010426_15624",
@@ -320,6 +310,36 @@
     "original_subject": "Here's your Airtel payment receipt!"
   },
   {
+    "id": "axis_010426_237",
+    "merchant_name": "Zepto",
+    "amount": 237,
+    "currency": "INR",
+    "amount_inr": 237,
+    "date": "2026-04-01",
+    "category": "Food",
+    "original_subject": "INR 237 spent on credit card no. XX7417"
+  },
+  {
+    "id": "hdfc_010426_1300",
+    "merchant_name": "Gamma.app",
+    "amount": 1300,
+    "currency": "INR",
+    "amount_inr": 1300,
+    "date": "2026-04-01",
+    "category": "Subscriptions",
+    "original_subject": "Rs.1300.00 debited via Credit Card **6238"
+  },
+  {
+    "id": "apple_310326_470",
+    "merchant_name": "Apple - X Premium",
+    "amount": 470,
+    "currency": "INR",
+    "amount_inr": 470,
+    "date": "2026-03-31",
+    "category": "Subscriptions",
+    "original_subject": "Your invoice from Apple."
+  },
+  {
     "id": "rzp_310326_1016",
     "merchant_name": "FNP (Ferns N Petals)",
     "amount": 1016,
@@ -328,5 +348,215 @@
     "date": "2026-03-31",
     "category": "Shopping",
     "original_subject": "Payment successful for FNP E Retail Private Limited"
+  },
+  {
+    "id": "hdfc_300326_1694",
+    "merchant_name": "LinkedIn",
+    "amount": 1694.07,
+    "currency": "INR",
+    "amount_inr": 1694.07,
+    "date": "2026-03-30",
+    "category": "Subscriptions",
+    "original_subject": "Alert: Update on your HDFC Bank Credit Card"
+  },
+  {
+    "id": "axis_290326_70",
+    "merchant_name": "Zepto",
+    "amount": 70,
+    "currency": "INR",
+    "amount_inr": 70,
+    "date": "2026-03-29",
+    "category": "Food",
+    "original_subject": "INR 70 spent on credit card no. XX7417"
+  },
+  {
+    "id": "axis_290326_334",
+    "merchant_name": "Swiggy",
+    "amount": 334,
+    "currency": "INR",
+    "amount_inr": 334,
+    "date": "2026-03-29",
+    "category": "Food",
+    "original_subject": "INR 334 spent on credit card no. XX7417"
+  },
+  {
+    "id": "axis_290326_240",
+    "merchant_name": "Zepto",
+    "amount": 240,
+    "currency": "INR",
+    "amount_inr": 240,
+    "date": "2026-03-29",
+    "category": "Food",
+    "original_subject": "INR 240 spent on credit card no. XX7417"
+  },
+  {
+    "id": "axis_290326_146",
+    "merchant_name": "Munchmart",
+    "amount": 146,
+    "currency": "INR",
+    "amount_inr": 146,
+    "date": "2026-03-29",
+    "category": "Food",
+    "original_subject": "INR 146 spent on credit card no. XX7417"
+  },
+  {
+    "id": "axis_280326_873",
+    "merchant_name": "Swiggy",
+    "amount": 873,
+    "currency": "INR",
+    "amount_inr": 873,
+    "date": "2026-03-28",
+    "category": "Food",
+    "original_subject": "INR 873 spent on credit card no. XX7417"
+  },
+  {
+    "id": "axis_280326_373",
+    "merchant_name": "Swiggy",
+    "amount": 373,
+    "currency": "INR",
+    "amount_inr": 373,
+    "date": "2026-03-28",
+    "category": "Food",
+    "original_subject": "INR 373 spent on credit card no. XX7417"
+  },
+  {
+    "id": "axis_280326_80",
+    "merchant_name": "Munchmart",
+    "amount": 80,
+    "currency": "INR",
+    "amount_inr": 80,
+    "date": "2026-03-28",
+    "category": "Food",
+    "original_subject": "INR 80 spent on credit card no. XX7417"
+  },
+  {
+    "id": "hdfc_280326_162",
+    "merchant_name": "Uber",
+    "amount": 161.87,
+    "currency": "INR",
+    "amount_inr": 161.87,
+    "date": "2026-03-28",
+    "category": "Travel",
+    "original_subject": "Rs.161.87 debited via Credit Card **6238"
+  },
+  {
+    "id": "hdfc_280326_134",
+    "merchant_name": "Uber",
+    "amount": 133.97,
+    "currency": "INR",
+    "amount_inr": 133.97,
+    "date": "2026-03-28",
+    "category": "Travel",
+    "original_subject": "Rs.133.97 debited via Credit Card **6238"
+  },
+  {
+    "id": "hdfc_280326_83",
+    "merchant_name": "Uber",
+    "amount": 82.69,
+    "currency": "INR",
+    "amount_inr": 82.69,
+    "date": "2026-03-28",
+    "category": "Travel",
+    "original_subject": "Rs.82.69 debited via Credit Card **6238"
+  },
+  {
+    "id": "axis_270326_221",
+    "merchant_name": "Maya Momos",
+    "amount": 221,
+    "currency": "INR",
+    "amount_inr": 221,
+    "date": "2026-03-27",
+    "category": "Food",
+    "original_subject": "INR 221 spent on credit card no. XX7417"
+  },
+  {
+    "id": "axis_270326_360",
+    "merchant_name": "Sogappa",
+    "amount": 360,
+    "currency": "INR",
+    "amount_inr": 360,
+    "date": "2026-03-27",
+    "category": "Food",
+    "original_subject": "INR 360 spent on credit card no. XX7417"
+  },
+  {
+    "id": "axis_270326_113",
+    "merchant_name": "Zepto",
+    "amount": 112.95,
+    "currency": "INR",
+    "amount_inr": 112.95,
+    "date": "2026-03-27",
+    "category": "Food",
+    "original_subject": "INR 112.95 spent on credit card no. XX7417"
+  },
+  {
+    "id": "hdfc_270326_460",
+    "merchant_name": "Uber",
+    "amount": 459.84,
+    "currency": "INR",
+    "amount_inr": 459.84,
+    "date": "2026-03-27",
+    "category": "Travel",
+    "original_subject": "Rs.459.84 debited via Credit Card **6238"
+  },
+  {
+    "id": "hdfc_270326_421",
+    "merchant_name": "Uber",
+    "amount": 420.91,
+    "currency": "INR",
+    "amount_inr": 420.91,
+    "date": "2026-03-27",
+    "category": "Travel",
+    "original_subject": "Rs.420.91 debited via Credit Card **6238"
+  },
+  {
+    "id": "hdfc_270326_120",
+    "merchant_name": "Uber",
+    "amount": 119.76,
+    "currency": "INR",
+    "amount_inr": 119.76,
+    "date": "2026-03-27",
+    "category": "Travel",
+    "original_subject": "Rs.119.76 debited via Credit Card **6238"
+  },
+  {
+    "id": "apple_250326_119",
+    "merchant_name": "Apple - Apple Music",
+    "amount": 119,
+    "currency": "INR",
+    "amount_inr": 119,
+    "date": "2026-03-25",
+    "category": "Subscriptions",
+    "original_subject": "Your invoice from Apple."
+  },
+  {
+    "id": "practo_240326_479",
+    "merchant_name": "Practo - Dr. Ashishkumar Mishra",
+    "amount": 479,
+    "currency": "INR",
+    "amount_inr": 479,
+    "date": "2026-03-24",
+    "category": "Health",
+    "original_subject": "Practo Consult - Payment for Online Consultation is successful"
+  },
+  {
+    "id": "apple_180326_389",
+    "merchant_name": "Apple - YouTube Premium Family",
+    "amount": 389,
+    "currency": "INR",
+    "amount_inr": 389,
+    "date": "2026-03-18",
+    "category": "Subscriptions",
+    "original_subject": "Your invoice from Apple."
+  },
+  {
+    "id": "zoom_170326_865",
+    "merchant_name": "Zoom",
+    "amount": 864.94,
+    "currency": "INR",
+    "amount_inr": 864.94,
+    "date": "2026-03-17",
+    "category": "Subscriptions",
+    "original_subject": "Payment Processed"
   }
 ]
