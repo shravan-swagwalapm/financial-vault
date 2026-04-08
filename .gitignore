@@ -5,3 +5,5 @@ node_modules/
 *.pyc
 __pycache__/
 .DS_Store
+lib/.gmail_token.json
+lib/credentials.json
