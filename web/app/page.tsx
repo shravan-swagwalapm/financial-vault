@@ -5,6 +5,7 @@ import { useTransactions, useSync } from "../lib/hooks";
 import Header from "../components/Header";
 import MonthSelector from "../components/MonthSelector";
 import CategoryBreakdown from "../components/CategoryBreakdown";
+import TransactionTable from "../components/TransactionTable";
 
 export default function Dashboard() {
   const { transactions, loading, error, reload } = useTransactions();
@@ -71,6 +72,7 @@ export default function Dashboard() {
         onSelect={setSelectedMonth}
       />
       <CategoryBreakdown transactions={filtered} />
+      <TransactionTable transactions={filtered} />
     </div>
   );
 }
