@@ -1,6 +1,6 @@
 "use client";
 
-import { Transaction } from "../../lib/types";
+import { Transaction } from "../lib/types";
 
 interface MonthSelectorProps {
   transactions: Transaction[];

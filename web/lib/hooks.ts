@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import type { Transaction } from "../../lib/types";
+import type { Transaction } from "./types";
 
 export function useTransactions() {
   const [transactions, setTransactions] = useState<Transaction[]>([]);

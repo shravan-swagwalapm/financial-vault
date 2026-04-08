@@ -1,6 +1,6 @@
 "use client";
 
-import { Transaction } from "../../lib/types";
+import { Transaction } from "../lib/types";
 
 function formatINR(amount: number): string {
   return new Intl.NumberFormat("en-IN", {
