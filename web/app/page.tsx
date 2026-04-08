@@ -18,13 +18,15 @@ export default function Dashboard() {
   }, [transactions, selectedMonth]);
 
   const dateRange = useMemo(() => {
-    if (transactions.length === 0) return "";
-    const dates = transactions
+    if (filtered.length === 0) return "";
+    const dates = filtered
       .map((t) => parseTransactionDate(t.date))
       .sort((a, b) => a.getTime() - b.getTime());
     const fmt = (d: Date) => d.toLocaleDateString("en-IN", { month: "short", year: "numeric" });
-    return `${fmt(dates[0])} – ${fmt(dates[dates.length - 1])}`;
-  }, [transactions]);
+    const start = fmt(dates[0]);
+    const end = fmt(dates[dates.length - 1]);
+    return start === end ? start : `${start} – ${end}`;
+  }, [filtered]);
 
   if (loading) {
     return (
@@ -61,7 +63,7 @@ export default function Dashboard() {
 
   return (
     <div>
-      <Header transactions={transactions} dateRange={dateRange} />
+      <Header transactions={filtered} dateRange={dateRange} />
       <MonthSelector
         transactions={transactions}
         selectedMonth={selectedMonth}
