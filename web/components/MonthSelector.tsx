@@ -1,6 +1,7 @@
 "use client";
 
 import { Transaction } from "../lib/types";
+import { toMonthKey } from "../lib/date";
 
 interface MonthSelectorProps {
   transactions: Transaction[];
@@ -10,12 +11,7 @@ interface MonthSelectorProps {
 
 export default function MonthSelector({ transactions, selectedMonth, onSelect }: MonthSelectorProps) {
   const months = Array.from(
-    new Set(
-      transactions.map((t) => {
-        const d = new Date(t.date);
-        return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
-      })
-    )
+    new Set(transactions.map((t) => toMonthKey(t.date)))
   ).sort();
 
   const formatMonth = (key: string) => {

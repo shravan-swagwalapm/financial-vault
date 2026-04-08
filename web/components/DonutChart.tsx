@@ -22,33 +22,35 @@ function formatINR(amount: number): string {
 
 export default function DonutChart({ data }: DonutChartProps) {
   return (
-    <ResponsiveContainer width="100%" height={240}>
-      <PieChart>
-        <Pie
-          data={data}
-          cx="50%"
-          cy="50%"
-          innerRadius={60}
-          outerRadius={100}
-          paddingAngle={2}
-          dataKey="value"
-          stroke="none"
-        >
-          {data.map((entry) => (
-            <Cell key={entry.name} fill={CATEGORY_COLORS[entry.name]} />
-          ))}
-        </Pie>
-        <Tooltip
-          formatter={(value) => formatINR(Number(value))}
-          contentStyle={{
-            background: "#1e1e1e",
-            border: "1px solid #262626",
-            borderRadius: "8px",
-            color: "#fafafa",
-            fontSize: "13px",
-          }}
-        />
-      </PieChart>
-    </ResponsiveContainer>
+    <div style={{ width: "100%", height: 240 }}>
+      <ResponsiveContainer width="100%" height="100%">
+        <PieChart>
+          <Pie
+            data={data}
+            cx="50%"
+            cy="50%"
+            innerRadius={60}
+            outerRadius={100}
+            paddingAngle={2}
+            dataKey="value"
+            stroke="none"
+          >
+            {data.map((entry) => (
+              <Cell key={entry.name} fill={CATEGORY_COLORS[entry.name]} />
+            ))}
+          </Pie>
+          <Tooltip
+            formatter={(value) => formatINR(Number(value))}
+            contentStyle={{
+              background: "#1e1e1e",
+              border: "1px solid #262626",
+              borderRadius: "8px",
+              color: "#fafafa",
+              fontSize: "13px",
+            }}
+          />
+        </PieChart>
+      </ResponsiveContainer>
+    </div>
   );
 }

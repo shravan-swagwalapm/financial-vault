@@ -1,8 +1,10 @@
 "use client";
 
 import { useMemo } from "react";
+import dynamic from "next/dynamic";
 import { Transaction, CATEGORY_COLORS, type Category } from "../lib/types";
-import DonutChart from "./DonutChart";
+
+const DonutChart = dynamic(() => import("./DonutChart"), { ssr: false });
 
 interface CategoryBreakdownProps {
   transactions: Transaction[];

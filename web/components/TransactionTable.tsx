@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { Transaction, CATEGORY_COLORS } from "../lib/types";
+import { parseTransactionDate } from "../lib/date";
 
 interface TransactionTableProps {
   transactions: Transaction[];
@@ -48,8 +49,8 @@ export default function TransactionTable({ transactions }: TransactionTableProps
       filtered = filtered.filter((t) => t.merchant_name.toLowerCase().includes(q));
     }
     return [...filtered].sort((a, b) => {
-      const aVal = sortKey === "date" ? new Date(a.date).getTime() : a.amount_inr;
-      const bVal = sortKey === "date" ? new Date(b.date).getTime() : b.amount_inr;
+      const aVal = sortKey === "date" ? parseTransactionDate(a.date).getTime() : a.amount_inr;
+      const bVal = sortKey === "date" ? parseTransactionDate(b.date).getTime() : b.amount_inr;
       return sortDir === "asc" ? aVal - bVal : bVal - aVal;
     });
   }, [transactions, search, sortKey, sortDir]);
@@ -107,7 +108,7 @@ export default function TransactionTable({ transactions }: TransactionTableProps
             {sorted.map((t) => (
               <tr key={t.id} className="border-t border-[var(--border)] hover:bg-[var(--bg-tertiary)] transition-colors">
                 <td className="py-3 px-3 font-[family-name:var(--font-mono)] text-[var(--text-secondary)]">
-                  {new Date(t.date).toLocaleDateString("en-IN", { day: "2-digit", month: "short" })}
+                  {parseTransactionDate(t.date).toLocaleDateString("en-IN", { day: "2-digit", month: "short" })}
                 </td>
                 <td className="py-3 px-3 font-medium">{t.merchant_name}</td>
                 <td className="py-3 px-3">
