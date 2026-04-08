@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { useTransactions, useSync } from "../lib/hooks";
+import { useTransactions } from "../lib/hooks";
 import { parseTransactionDate, toMonthKey } from "../lib/date";
 import Header from "../components/Header";
 import MonthSelector from "../components/MonthSelector";
@@ -9,8 +9,7 @@ import CategoryBreakdown from "../components/CategoryBreakdown";
 import TransactionTable from "../components/TransactionTable";
 
 export default function Dashboard() {
-  const { transactions, loading, error, reload, lastSynced } = useTransactions();
-  const { syncing, error: syncError, sync, syncResult } = useSync(reload);
+  const { transactions, loading, error, reload } = useTransactions();
   const [selectedMonth, setSelectedMonth] = useState<string | null>(null);
 
   const filtered = useMemo(() => {
@@ -55,22 +54,14 @@ export default function Dashboard() {
     return (
       <div className="text-center py-20">
         <p className="text-[var(--text-muted)] text-lg">No transactions found.</p>
-        {syncError && <p className="mt-4 text-sm text-red-400">{syncError}</p>}
-        <button
-          onClick={sync}
-          disabled={syncing}
-          className="mt-4 px-4 py-2 text-sm rounded-lg bg-[var(--accent)] hover:bg-[var(--accent-hover)] disabled:opacity-50 disabled:cursor-not-allowed"
-        >
-          {syncing ? "Syncing..." : "Sync Gmail"}
-        </button>
+        <p className="mt-2 text-sm text-[var(--text-muted)]">Run <code className="font-[family-name:var(--font-mono)] text-[var(--accent)]">/sync-financial-vault</code> in Claude Code to sync Gmail.</p>
       </div>
     );
   }
 
   return (
     <div>
-      <Header transactions={transactions} syncing={syncing} onSync={sync} dateRange={dateRange} syncResult={syncResult} lastSynced={lastSynced} />
-      {syncError && <p className="mb-4 text-sm text-red-400">{syncError}</p>}
+      <Header transactions={transactions} dateRange={dateRange} />
       <MonthSelector
         transactions={transactions}
         selectedMonth={selectedMonth}
