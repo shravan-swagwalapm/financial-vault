@@ -1,12 +1,23 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { useTransactions, useSync } from "../lib/hooks";
 import Header from "../components/Header";
+import MonthSelector from "../components/MonthSelector";
 
 export default function Dashboard() {
   const { transactions, loading, error, reload } = useTransactions();
   const { syncing, sync } = useSync(reload);
+  const [selectedMonth, setSelectedMonth] = useState<string | null>(null);
+
+  const filtered = useMemo(() => {
+    if (!selectedMonth) return transactions;
+    return transactions.filter((t) => {
+      const d = new Date(t.date);
+      const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+      return key === selectedMonth;
+    });
+  }, [transactions, selectedMonth]);
 
   const dateRange = useMemo(() => {
     if (transactions.length === 0) return "";
@@ -53,6 +64,11 @@ export default function Dashboard() {
   return (
     <div>
       <Header transactions={transactions} syncing={syncing} onSync={sync} dateRange={dateRange} />
+      <MonthSelector
+        transactions={transactions}
+        selectedMonth={selectedMonth}
+        onSelect={setSelectedMonth}
+      />
     </div>
   );
 }
